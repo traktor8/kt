@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root {
-    --color-black:#000000;
+    --color-black:#1E1E1E;
     --color-yellow:#FFD600;
     --color-white:#fff;
 }
@@ -145,4 +145,29 @@ body{
     align-content: center;
     column-gap: 45px;
     flex-direction: row;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    color: var(--color-white);
+    text-align: center;
+}
+.text p1{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    color: var(--color-yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+.zg1 h1{
+    font-family:'Battambang',sans-serif;
+    color: var(--color-yellow);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 25px;
 }
