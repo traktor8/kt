@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --color-black:#000000;
+    --color-yellow:#FFD600;
+    --color-white:#fff;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: content-box;
+    margin: auto;
+
+}
+body{
+    background-color: var(--color-black);
+}
+.header {
+    margin-top: 31px;
+    width: 100%;
+    object-fit: cover;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 53px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    column-gap: 70px;
+    flex-direction: row;
+}
+.logo h1{
+    font-family:'Battambang',sans-serif;
+    color: var(--color-yellow);
+    font-size: 25px;
+}
+.navbar-li-a{
+    font-family: 'Open sans',sans-serif;
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.number h1{
+    font-family:'Battambang',sans-serif;
+    color: var(--color-yellow);
+    font-size: 25px;
+}
